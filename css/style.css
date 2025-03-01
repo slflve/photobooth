@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #5757BA;
+    --primary-color: #5757ba;
     --text-color: #080808;
     --accent-color: #FFB6C1;
     --white: #FFFFFF;
@@ -22,7 +22,8 @@ html, body {
 
 .logo2 {
     padding-left: 2em;
-    font-family: 'Koulen', sans-serif;
+    font-family: 'League Spartan', serif;
+    font-weight: 500;
     font-size: 24px;
     position: fixed;
     top: 10px;
@@ -49,11 +50,11 @@ body {
 }
 
 .home{
-    background-image: url('img/image-bg.png');
+    background-image: url('/img/image-bg-1.png');
 }
 
 .instructions, .photobooth, .download{
-    background-image: url('img/image-bg-1.png');
+    background-image: url('/img/image-bg-1.png');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
