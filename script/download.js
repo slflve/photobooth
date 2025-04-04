@@ -3,7 +3,7 @@ const ctx = finalCanvas.getContext("2d");
 const downloadBtn = document.getElementById("download-btn");
 const colorButtons = document.querySelectorAll(".color-btn");
 
-let selectedFrameColor = "img/nude.png"; // Default frame
+let selectedFrameColor = "img/nude.jpg"; // Default frame
 
 let capturedPhotos = JSON.parse(sessionStorage.getItem("capturedPhotos")) || [];
 
